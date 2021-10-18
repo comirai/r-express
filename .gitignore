@@ -1,0 +1,40 @@
+# Built files
+native/artifacts.json
+artifacts.json
+npm
+*.node
+
+
+target/
+**/*.bk
+core
+*.log
+
+.vscode/*
+!.vscode/settings.json
+*.swp
+
+/.idea
+*.iml
+
+.DS_Store
+
+node_modules/
+
+# Flamegraph
+*.html
+*.svg
+package-lock.json
+*.data
+*.old
+*.stacks
+
+# Coverage datas
+*.zip
+*.info
+# Custom cargo target directory for converages
+.COVERAGE_DIR
+
+**/*~
+**/node_modules
+**/.DS_Store
